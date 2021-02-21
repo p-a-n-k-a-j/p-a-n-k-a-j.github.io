@@ -1154,15 +1154,15 @@
      
       font-weight: 700;
       letter-spacing: -2px;
-      font-size: 50px;
-      line-height: 65px;
+      font-size: 36px;
+      line-height: 0.9;
       @include desktops{
-        font-size: 50px;
-        line-height: 55px;
+        font-size: 36px;
+      line-height: 0.9;
       }
       @include large-desktops{
-        line-height: 65px;
-        font-size: 60px;
+        font-size: 36px;
+      line-height: 0.9;
       }
     }
     .info {
@@ -1180,10 +1180,10 @@
   }
 
   .card-icon {
-    position: absolute;
+    position: relative;
     bottom: 0px;
     left: 0px;
-    opacity: .08;
+    opacity: 1;
   }
 }
 
